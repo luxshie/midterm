@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* MY CSS STYLES */
+
+body {
+  background-color: #AAD4CF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: #D4E9E7;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.wide-image {
+  position: absolute;
+}
+
+.small-image {
+  float: left;
+  height: 259px;
+  padding-right: 18px;
+  padding-bottom: 16px;
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  border-right: 1px solid #5C6565;
+  width: 100%;
+  padding: 10px 5px;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: #777777;
+  color: #ffffff;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+.container article {
+  padding: 0 10px;
+}
+
+.title {
+  position: relative;
+  color: #FFFFFF;
+  font-size: 60px;
+  padding-top: 200px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 12px;
+}
+
+h3, h4 {
+  font-size: 29px;
+  padding-top: 27px;
+  padding-bottom: 14px;
+}
+
+p {
+  padding-right: 8px;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.facts {
+  padding-left: 24px;
+}
+
+.facts li {
+  list-style-type: disc;
+  font-size: 15px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+  padding: 15px;
+}
+
+.forms label {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.forms input {
+  height: 21px;
+  width: 100%;
+}
+textarea {
+  height: 88px;
+  width: 100%;
+}
+
+.contact-box p {
+  font-size: 21px;
+  padding: 15px 0;
+}
+
+.form-container .send-input {
+  font-size: 10px;
+  padding: 10px;
+  background: none;
+  border: 1px solid #000000;
+}
+
+.send-input:hover {
+  background-color: #777777;
+  color: white;
+}
+
+footer .container {
+  height: 90px;
+}
+
+footer p {
+  font-size: 14px;
+  padding-right: 40px;
+  text-align-last: right;
+  padding-top: 40px;
+}
